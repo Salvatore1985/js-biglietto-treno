@@ -14,10 +14,10 @@ console.log("Il tuo Nome è :", userName);
 const userLastName = prompt("Qual'è il tuo Cognome ?", "Cascone");
 console.log("Il tuo Cognome è :", userLastName);
 
-const userAge = prompt("Qual'è il tuo colore preferito ?", "36");
-console.log("Il tuo Colore preferito è :", userAge);
+const userAge = parseInt(prompt("Quanti anni hai ?", "36"));
+console.log("I tuoi anni sono :", userAge);
 
-const userKms = prompt("Qual'è il tuo colore preferito ?", "36");
+const userKms = parseInt(prompt("Quanti KM vuoi percorrere ?", "36"));
 console.log("I Km che hai inserito sono :", userKms);
 
 //* VARIABILE 
@@ -34,3 +34,9 @@ elementKms.innerHTML = userKms;
 elementDiscount.innerHTML = userDiscount;
 elementPrice.innerHTML = sum;
 
+// ! CONVALIDE
+if (condition) {
+
+} else {
+
+}
