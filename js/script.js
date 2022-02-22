@@ -51,4 +51,4 @@ elementAge.innerHTML += userAge;
 elementUserYear.innerHTML = userYear;
 elementKms.innerHTML = userKms;
 elementDiscount.innerHTML = userDiscount;
-elementPrice.innerHTML += sum.toFixed(2);
+elementPrice.innerHTML += "Euro " + sum.toFixed(2);
