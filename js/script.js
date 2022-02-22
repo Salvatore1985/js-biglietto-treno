@@ -3,6 +3,7 @@
 let elementName = document.getElementById("name");
 let elementLastName = document.getElementById("last-name");
 let elementAge = document.getElementById("age");
+let elementUserYear = document.getElementById("user-year");
 let elementKms = document.getElementById("kms");
 let elementDiscount = document.getElementById("discount");
 let elementPrice = document.getElementById("price");
@@ -24,6 +25,8 @@ console.log("I Km che hai inserito sono :", userKms);
 let userDiscount;
 let userPrice = 0.21;
 let sum = userPrice * userKms;
+let currentYear = 2022
+let userYear = currentYear - userAge;
 
 
 // ! CONVALIDE
@@ -40,14 +43,12 @@ if (userAge <= 18) {
 
 
 
-
-
-
 //* INSERISCO I DATI DEL DOM
 
 elementName.innerHTML = userName;
 elementLastName.innerHTML = userLastName;
 elementAge.innerHTML = userAge;
+elementUserYear.innerHTML += userYear;
 elementKms.innerHTML = userKms;
 elementDiscount.innerHTML = userDiscount;
-elementPrice.innerHTML = sum.toFixed(2);
+elementPrice.innerHTML += sum.toFixed(2);
