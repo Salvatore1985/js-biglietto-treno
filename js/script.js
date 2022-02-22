@@ -30,7 +30,7 @@ let userYear = currentYear - userAge;
 
 
 // ! CONVALIDE
-if (userAge <= 18) {
+if (userAge < 18) {
     sum *= 0.8;
     userDiscount = "Essendo Minorenne hai diritto a uno sconto del 20%";
 } else if (userAge >= 65) {
