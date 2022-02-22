@@ -47,8 +47,8 @@ if (userAge <= 18) {
 
 elementName.innerHTML = userName;
 elementLastName.innerHTML = userLastName;
-elementAge.innerHTML = userAge;
-elementUserYear.innerHTML += userYear;
+elementAge.innerHTML += userAge;
+elementUserYear.innerHTML = userYear;
 elementKms.innerHTML = userKms;
 elementDiscount.innerHTML = userDiscount;
 elementPrice.innerHTML += sum.toFixed(2);
