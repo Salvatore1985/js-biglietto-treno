@@ -45,10 +45,10 @@ if (userAge <= 18) {
 
 //* INSERISCO I DATI DEL DOM
 
-elementName.innerHTML = userName;
-elementLastName.innerHTML = userLastName;
-elementAge.innerHTML += userAge;
-elementUserYear.innerHTML = userYear;
-elementKms.innerHTML = userKms;
-elementDiscount.innerHTML = userDiscount;
-elementPrice.innerHTML += "Euro " + sum.toFixed(2);
+elementName.innerHTML = userName + " ;";
+elementLastName.innerHTML = userLastName + " ;";
+elementAge.innerHTML += userAge + " ;";
+elementUserYear.innerHTML = userYear + " ;";
+elementKms.innerHTML = userKms + " ;";
+elementDiscount.innerHTML = userDiscount + " ;";
+elementPrice.innerHTML += " Euro " + sum.toFixed(2) + " ;";
